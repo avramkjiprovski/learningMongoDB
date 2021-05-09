@@ -1,0 +1,14 @@
+{
+  "name": "learningmongodb",
+  "version": "1.0.0",
+  "description": "Just some app to exercise mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Avram",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.7"
+  }
+}
