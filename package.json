@@ -1,14 +1,17 @@
 {
   "name": "learningmongodb",
-  "version": "1.0.0",
-  "description": "Just some app to exercise mongoose",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "start"
+    "start": "node ./bin/www"
   },
-  "author": "Avram",
-  "license": "ISC",
   "dependencies": {
-    "mongoose": "^5.12.7"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.12.8",
+    "morgan": "~1.9.1"
   }
 }
